@@ -23,7 +23,7 @@ const skills = [
     items: [
       "Arch Linux (daily driver)",
       "Claude Code power user",
-      "Python, HTML/CSS, Markdown",
+      "HTML/CSS, Markdown",
       "Prompt engineering expert",
       "Top-down learning methodology",
       "AI-assisted development"
