@@ -38,7 +38,7 @@ export default function Evidence() {
             </div>
           </motion.div>
 
-          {/* Cognitive Performance */}
+          {/* Problem-Solving Skills */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -47,19 +47,17 @@ export default function Evidence() {
           >
             <div className="flex items-center mb-6">
               <Brain className="w-8 h-8 text-blue-400 mr-3" />
-              <h3 className="text-2xl font-bold">Cognitive Performance</h3>
+              <h3 className="text-2xl font-bold">Problem-Solving Approach</h3>
             </div>
             <div className="space-y-4">
-              <div className="bg-black/50 p-4 rounded-lg">
-                <p className="text-gray-300 mb-2">
-                  <span className="font-semibold text-blue-400">99th Percentile</span> performance on standardized cognitive assessments
-                </p>
-                <p className="text-sm text-gray-400">
-                  Peak Brain Training & Elevate metrics available
-                </p>
-              </div>
               <p className="text-gray-300">
-                Exceptional problem-solving, memory, and mental agility scores demonstrating capacity for complex technical challenges
+                Self-taught programmer with a proven track record of learning complex systems independently
+              </p>
+              <p className="text-gray-300">
+                Strong analytical skills developed through healthcare experience and technical projects
+              </p>
+              <p className="text-sm text-gray-400 mt-4">
+                Performance metrics and assessments available upon request
               </p>
             </div>
           </motion.div>
@@ -93,7 +91,7 @@ export default function Evidence() {
             </motion.a>
             
             <p className="text-sm text-gray-400 text-center">
-              Includes: Email archives, test scores, project documentation
+              Includes: Email archives, project documentation, performance metrics
             </p>
           </div>
         </motion.div>
