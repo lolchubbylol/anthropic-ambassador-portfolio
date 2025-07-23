@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import Journey from "@/components/Journey";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
+import Evidence from "@/components/Evidence";
 import Qualifications from "@/components/Qualifications";
 import Vision from "@/components/Vision";
 import Contact from "@/components/Contact";
@@ -18,6 +19,7 @@ export default function Home() {
       <Journey />
       <Skills />
       <Projects />
+      <Evidence />
       <Qualifications />
       <Vision />
       <Contact />
