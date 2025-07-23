@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, MapPin, Github, FileText } from "lucide-react";
+import { Mail, MapPin, Github, Linkedin } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -56,20 +56,23 @@ export default function Contact() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="bg-glass p-4 rounded-lg hover:bg-white/10 transition-colors"
+            className="bg-glass p-4 rounded-lg hover:bg-white/10 transition-colors flex items-center"
+            aria-label="GitHub Profile"
           >
             <Github className="w-8 h-8" />
           </motion.a>
 
           <motion.a
-            href="/Nathan_Xu_Anthropic_Ambassador_Resume.md"
-            download
+            href="https://github.com/lolchubbylol/mcp-power-guide"
+            target="_blank"
+            rel="noopener noreferrer"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.5 }}
             className="bg-glass p-4 rounded-lg hover:bg-white/10 transition-colors"
+            aria-label="MCP Power Guide"
           >
-            <FileText className="w-8 h-8" />
+            <span className="text-2xl font-bold">📚</span>
           </motion.a>
         </div>
 
